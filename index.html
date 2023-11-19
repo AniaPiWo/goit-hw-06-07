@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GOIT JS Homework Page</title>
+    <style>
+      body {
+        font-family: "Arial", sans-serif;
+        text-align: center;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 0;
+      }
+
+      .homework-container {
+        width: 80%;
+        margin: 50px auto;
+        background-color: #fff;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+      button {
+        font-size: 16px;
+        margin: 10px;
+        padding: 10px 20px;
+        cursor: pointer;
+        background-color: #f12ba5;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        outline: none;
+        transition: background-color 0.3s ease;
+      }
+
+      button:hover {
+        background-color: #d1258f;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="homework-container">
+      <h1>GOIT JS Homework</h1>
+
+      <button id="hw-06" onclick="openPage('goit-js-hw-06/index.html')">
+        Homework 06
+      </button>
+
+      <button id="hw-07" onclick="openPage('goit-js-hw-07/index.html')">
+        Homework 07
+      </button>
+
+      <button id="hw-08" onclick="openPage('goit-js-hw-08/index.html')">
+        Homework 08
+      </button>
+
+      <button id="hw-09">Homework 09</button>
+
+      <button id="hw-10">Homework 10</button>
+    </div>
+    <script>
+      function openPage(path) {
+        window.location.href = path;
+      }
+    </script>
+  </body>
+</html>

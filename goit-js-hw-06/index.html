@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/css/styles.css" />
+    <title>Strona nawigacyjna</title>
+  </head>
+  <body>
+    <button onclick="goBack()">Previous page ⬅️</button>
+    <h1>GOIT-JS-HW-06</h1>
+    <ul class="tasks">
+      <button onclick="openPage('src/task-01.html')">Task 1</button>
+      <button onclick="openPage('src/task-02.html')">Task 2</button>
+      <button onclick="openPage('src/task-03.html')">Task 3</button>
+      <button onclick="openPage('src/task-04.html')">Task 4</button>
+      <button onclick="openPage('src/task-05.html')">Task 5</button>
+      <button onclick="openPage('src/task-06.html')">Task 6</button>
+      <button onclick="openPage('src/task-07.html')">Task 7</button>
+      <button onclick="openPage('src/task-08.html')">Task 8</button>
+      <button onclick="openPage('src/task-09.html')">Task 9</button>
+      <button onclick="openPage('src/task-10.html')">Task 10</button>
+    </ul>
+
+    <script>
+      function openPage(path) {
+        window.location.href = path;
+      }
+      function goBack() {
+        window.history.back();
+
+      }
+    </script>
+  </body>
+</html>

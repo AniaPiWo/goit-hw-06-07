@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Zadanie 8</title>
+  </head>
+  <body>
+    <button onclick="goBack()">Previous page ⬅️</button>
+    <div class="widget">
+      <p>Background color: <span class="color"></span></p>
+      <button type="button" class="change-color">Change color</button>
+    </div>
+
+    <script src="js/task-09.js" type="module"></script>
+    <script>
+      function goBack() {
+        window.history.back();
+      }
+    </script>
+  </body>
+</html>

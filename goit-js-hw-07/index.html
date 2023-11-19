@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Homework 7</title>
+    <link rel="stylesheet" href="css/common.css" />
+  </head>
+  <body>
+    <button onclick="goBack()">Previous page ⬅️</button>
+
+    <div class="homework-container">
+      <h1>GOIT-JS-HW-07</h1>
+      <ul>
+        <button onclick="openPage('01-gallery.html')">Image gallery</button>
+        <button onclick="openPage('02-lightbox.html')">
+          SimpleLightbox library
+        </button>
+      </ul>
+    </div>
+    <script>
+      function openPage(path) {
+        window.location.href = path;
+      }
+      function goBack() {
+        window.history.back();
+      }
+    </script>
+  </body>
+</html>

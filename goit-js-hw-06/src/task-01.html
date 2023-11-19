@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Zadanie 1</title>
+  </head>
+  <body>
+    <button onclick="goBack()">Previous page ⬅️</button>
+
+    <ul id="categories">
+      <li class="element">
+        <h2>Zwierzęta</h2>
+        <ul>
+          <li>Kot</li>
+          <li>Chomik</li>
+          <li>Kon</li>
+          <li>Papuga</li>
+        </ul>
+      </li>
+      <li class="element">
+        <h2>Produkty</h2>
+        <ul>
+          <li>Chleb</li>
+          <li>Pietruszka</li>
+          <li>Twaróg</li>
+        </ul>
+      </li>
+      <li class="element">
+        <h2>Technologie</h2>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>React</li>
+          <li>Node</li>
+        </ul>
+      </li>
+    </ul>
+
+    <script src="js/task-01.js" type="module"></script>
+    <script>
+      function goBack() {
+        window.history.back();
+      }
+    </script>
+  </body>
+</html>

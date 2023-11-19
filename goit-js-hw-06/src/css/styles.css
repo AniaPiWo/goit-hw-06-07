@@ -1,0 +1,248 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: #fff;
+  color: #424242;
+  line-height: 1.5;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 20px;
+}
+
+.tasks {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+a {
+  text-decoration: none;
+  color: #424242;
+}
+
+.tasks li {
+  border: 2px solid hotpink;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.tasks a:hover {
+  color: hotpink;
+}
+
+ul {
+  list-style: none;
+}
+
+/* task2 */
+.ingredients {
+  color: hotpink;
+  margin: 20px;
+}
+/* task 3 */
+#gallery {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100vw; /* Set the width of the gallery to 100vw */
+}
+
+#gallery li {
+  margin: 10px;
+  list-style: none;
+  flex: 0 0 calc(33.33% - 20px); /* Set the width to 33.33% (3 items per row) */
+}
+
+#gallery img {
+  width: 100%; /* Make the images fill the entire width of their container */
+  height: 100%;
+  border: 2px solid #333;
+  border-radius: 5px;
+}
+
+button {
+  cursor: pointer;
+  background-color: transparent;
+  border-radius: 5px;
+  outline: none;
+  padding: 10px 5px;
+}
+
+/*task 4 */
+#counter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+button {
+  font-size: 16px;
+  margin: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #f12ba5;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #d1258f;
+}
+
+#value {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* task 5 */
+.name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.name input {
+  width: 20%;
+  padding: 15px;
+  font-size: 16px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #bdbdbd;
+}
+
+/* task 6 */
+.validation-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#validation-input {
+  border: 3px solid #bdbdbd;
+  padding: 10px 20px;
+  font-size: 16px;
+  outline: none;
+  border-radius: 5px;
+  width: 250px;
+}
+
+#validation-input.valid {
+  border-color: #4caf50;
+}
+
+#validation-input.invalid {
+  border-color: #f44336;
+}
+
+/* task 7 */
+.font-control {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+#text {
+  color: hotpink;
+}
+
+/* task 8 */
+.login-form {
+  background-color: #fff;
+  width: 300px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: start;
+}
+
+.login-form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.login-form input {
+  width: 95%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* task 9 */
+.widget {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  justify-content: center;
+}
+
+.change-color {
+  background-color: transparent;
+  color: black;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.change-color:hover {
+  background-color: black;
+  color: white;
+}
+
+/* task 10 */
+#boxes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: #0077cc;
+  color: #fff;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+#controls {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+#controls input {
+  width: 95px;
+  padding: 5px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #bdbdbd;
+}
